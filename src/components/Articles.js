@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import SkeletonElement from '../skeletons/SkeletonElement';
 
 const Articles = () => {
     //STATE & VARIABLES
