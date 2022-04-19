@@ -12,7 +12,7 @@ const User = () => {
             const res = await fetch('https://jsonplaceholder.typicode.com/users/1');
             const data = await res.json();
             setProfile(data);
-        }, 500);
+        }, 0);
     }, [])
     return(
         <div className="articles">
